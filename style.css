@@ -4,7 +4,129 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
 
+body {
+  background: #eaf1ff;
+  color: #111;
+}
+
+/* HERO */
+.hero {
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 38px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: auto;
+  font-size: 16px;
+}
+
+.primary-btn {
+  margin-top: 25px;
+  padding: 14px 28px;
+  background: #4f6ef7;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+/* INFO */
+.info {
+  padding: 40px 20px;
+  display: grid;
+  gap: 25px;
+}
+
+.info-card {
+  background: #fff;
+  border: 2px solid #000;
+  border-radius: 25px;
+  padding: 25px;
+  animation: fadeUp 1s ease;
+}
+
+/* STATS */
+.stats {
+  background: #e3ecff;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.stats h1 {
+  font-size: 42px;
+  margin: 10px 0;
+}
+
+.outline-btn {
+  margin-top: 20px;
+  padding: 12px 26px;
+  background: transparent;
+  border: 2px solid #000;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+/* ROLES */
+.roles {
+  padding: 50px 20px;
+  display: grid;
+  gap: 30px;
+}
+
+.role-card {
+  background: #fff;
+  border: 2px solid #000;
+  border-radius: 25px;
+  padding: 25px;
+}
+
+.role-card button {
+  margin-top: 15px;
+  padding: 10px 22px;
+  border-radius: 20px;
+  border: none;
+  background: #4f6ef7;
+  color: #fff;
+  cursor: pointer;
+}
+
+.muted {
+  text-align: center;
+  color: #666;
+}
+
+/* ANIMATION */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* RESPONSIVE */
+@media (min-width: 768px) {
+  .info, .roles {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 /* ===== NAVBAR ===== */
 .navbar {
   background: rgba(20,20,20,0.95);
