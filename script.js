@@ -1,17 +1,12 @@
-function toggleMenu() {
-  document.getElementById("navMenu").classList.toggle("open");
-}
-const cards = document.querySelectorAll(".info-card, .role-card");
+const cards = document.querySelectorAll(".slide-up");
 
 window.addEventListener("scroll", () => {
+  const trigger = window.innerHeight * 0.85;
+
   cards.forEach(card => {
-    const position = card.getBoundingClientRect().top;
-    if (position < window.innerHeight - 100) {
-      card.style.opacity = "1";
-      card.style.transform = "translateY(0)";
+    const top = card.getBoundingClientRect().top;
+    if (top < trigger) {
+      card.classList.add("show");
     }
   });
 });
-function toggleMenu() {
-  document.getElementById("navMenu").classList.toggle("open");
-}
