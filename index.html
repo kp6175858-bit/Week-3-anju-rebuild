@@ -3,187 +3,69 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Static Website Rebuild</title>
-
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="style.css"/>
+  <title>Static Internship - Week 3</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  
-
-<!-- ===== NAVBAR ===== -->
-<header class="navbar">
-  <div class="logo">Pal Anju</div>
-
-  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
-
-  <nav id="navMenu">
-    <a href="#">Home</a>
-    <a href="#">Services</a>
-    <a href="#">About</a>
-    <a href="#">Contact</a>
-  </nav>
-</header>
-
-<!-- ===== HERO ===== -->
-<section class="hero">
-  <h1 class="fade-up">Build Better Static Websites</h1>
-  <p class="fade-up delay">
-    Clean layouts, smooth animations & responsive design
-  </p>
-  <button class="hero-btn fade-up delay2">Get Started</button>
-</section>
-
-<!-- ===== INFO CARDS ===== -->
-<section class="info">
-  <div class="info-card slide-up">
-    <h2>Career Role Clarity</h2>
-    <p>Understand real job roles and daily work expectations.</p>
-  </div>
-
-  <div class="info-card slide-up delay">
-    <h2>Skill Gap Awareness</h2>
-    <ul>
-      <li>Skills you already have</li>
-      <li>Skills you need to improve</li>
-    </ul>
-  </div>
-
-  <div class="info-card slide-up delay2">
-    <h2>Improve Employability</h2>
-    <p>Employers prefer candidates with real task experience.</p>
-  </div>
-</section>
-
-<!-- ===== STATS ===== -->
-<section class="stats">
-  <h2>Students with internships are</h2>
-  <h1>12.6% more likely</h1>
-  <p>to get job interviews</p>
-  <button class="outline-btn">BCA / BBA Internships</button>
-</section>
-
-<!-- ===== ROLES ===== -->
-<section class="roles">
-  <div class="role-card">
-    <h3>AI Frontend Developer</h3>
-    <p>Build real UI components using modern tools.</p>
-    <button>More Info</button>
-  </div>
-
-  <div class="role-card muted">
-    <h3>More roles coming soon</h3>
-  </div>
-</section>
-
-
-  <metacharset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Internship Program</title>
-  <link rel="stylesheet" href="style.css">
-
-
-<!-- HERO -->
-<section class="hero">
-  <h1>Why Internships Matter Today</h1>
-  <p>Real work experience matters more than ever in a fast-changing job market.</p>
-  <button class="primary-btn">Explore Programs</button>
-</section>
-
-<!-- INFO SECTION -->
-<section class="info">
-  <div class="info-card">
-    <h2>Career Role Clarity</h2>
-    <p>Understand real job roles, daily work and expectations.</p>
-  </div>
-
-  <div class="info-card">
-    <h2>Skill Gap Awareness</h2>
-    <ul>
-      <li>Skills you already have</li>
-      <li>Skills you need to improve</li>
-    </ul>
-  </div>
-
-  <div class="info-card">
-    <h2>Improved Employability</h2>
-    <p>Employers prefer candidates with real task experience.</p>
-  </div>
-</section>
-
-<!-- STATS -->
-<section class="stats">
-  <h2>Students with internships are</h2>
-  <h1>~12.6% more likely</h1>
-  <p>to get job interviews</p>
-  <button class="outline-btn">BCA / BBA Internships</button>
-</section>
-
-<!-- ROLES -->
-<section class="roles">
-  <div class="role-card">
-    <h3>AI Frontend Developer</h3>
-    <p>Build real UI components using modern frontend tools.</p>
-    <button>More Info</button>
-  </div>
-
-  <div class="role-card muted">
-    <h3>More roles coming soon</h3>
-  </div>
-</section>
-
-<script src="script.js"></script>
-
-  <!-- ===== NAVBAR ===== -->
-  <header class="navbar">
-    <div class="logo">Pal Anju</div>
-
-    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
-
-    <nav id="navMenu">
-      <a href="#">Home</a>
-      <a href="#">Services</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
+  <!-- HEADER -->
+  <header class="header">
+    <h1>STATIC</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
-  <!-- ===== HERO ===== -->
-  <section class="hero">
-    <h1 class="fade-up">Build Better Static Websites</h1>
-    <p class="fade-up delay">
-      Clean layouts, smooth animations & responsive design
+  <!-- HERO SECTION -->
+  <section class="hero" id="home">
+    <h2 class="animate">Build Modern Websites</h2>
+    <p>Frontend Internship – Week 3</p>
+    <button>Get Started</button>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <h2>About Internship</h2>
+    <p>
+      This task focuses on layout, structure, responsiveness and clean execution
+      using HTML, CSS and JavaScript.
     </p>
-    <button class="hero-btn fade-up delay2">Get Started</button>
   </section>
 
-  <!-- ===== CARDS ===== -->
-  <section class="cards">
-    <div class="card fade-card">
-      <h3>Fast</h3>
-      <p>Optimized static pages with smooth UI.</p>
-    </div>
+  <!-- SKILLS -->
+  <section class="skills" id="skills">
+    <h2>Main Topics</h2>
 
-    <div class="card fade-card">
-      <h3>Responsive</h3>
-      <p>Perfect on mobile, tablet & desktop.</p>
-    </div>
-
-    <div class="card fade-card">
-      <h3>Clean Code</h3>
-      <p>Readable & mentor-approved structure.</p>
+    <div class="card-container">
+      <div class="card">
+        <h3>HTML</h3>
+        <p>Structure of the Web</p>
+      </div>
+      <div class="card">
+        <h3>CSS</h3>
+        <p>Styling & Layout</p>
+      </div>
+      <div class="card">
+        <h3>JavaScript</h3>
+        <p>Interactivity</p>
+      </div>
     </div>
   </section>
 
-  <!-- ===== FOOTER ===== -->
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <h2>Contact</h2>
+    <p>Email: example@mail.com</p>
+  </section>
+
+  <!-- FOOTER -->
   <footer>
-    © 2026 Static Website Rebuild | Week 3 Internship Task
+    <p>© 2026 Static Internship. All rights reserved.</p>
   </footer>
 
   <script src="script.js"></script>
 </body>
-
 </html>
