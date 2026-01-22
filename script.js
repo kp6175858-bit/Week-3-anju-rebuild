@@ -1,5 +1,20 @@
-const button = document.querySelector(".btn");
 
-button.addEventListener("click", () => {
-  alert("Week 3 Task Started 🚀");
-});
+function toggleMenu() {
+  document.getElementById("navMenu").classList.toggle("open");
+}
+
+/* ===== SCROLL REVEAL ===== */
+const reveals = document.querySelectorAll(".reveal");
+
+function revealOnScroll() {
+  reveals.forEach(el => {
+    const windowHeight = window.innerHeight;
+    const elementTop = el.getBoundingClientRect().top;
+    if (elementTop < windowHeight - 100) {
+      el.classList.add("active");
+    }
+  });
+}
+
+window.addEventListener("scroll", revealOnScroll);
+revealOnScroll();
