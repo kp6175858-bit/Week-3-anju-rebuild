@@ -1,321 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Static Internship | Week 3 Project</title>
 
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="css/style.css">
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Modern Static Rebuild</title>
-  <link rel="stylesheet" href="style.css"/>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- ===== NAVBAR ===== -->
-  <header class="navbar">
-  <div class="logo">STATIC<span>.</span></div>
-    <div class="logo">STATIC</div>
+<header class="navbar">
+  <div class="logo">STATIC</div>
+
   <div class="menu-icon" onclick="toggleMenu()">☰</div>
-    <nav id="navMenu">
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#services">Services</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-  
+
   <nav id="navMenu">
     <a href="#home">Home</a>
     <a href="#features">Why Us</a>
     <a href="#roles">Roles</a>
+    <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
     <a href="#contact">Contact</a>
   </nav>
 </header>
-
-<!-- ===== HERO ===== -->
+  
   <section class="hero" id="home">
   <div class="hero-content">
     <h1>Build Modern <span>Static Websites</span></h1>
     <p>
-      This project focuses on layout structure, responsiveness, and clean execution
-      using HTML, CSS, and JavaScript.
+      This project focuses on layout structure, responsiveness,
+      and clean execution using HTML, CSS, and JavaScript.
     </p>
-    <button>Explore More</button>
+
+    <div class="hero-buttons">
+      <button class="btn primary">View Projects</button>
+      <button class="btn outline">Know More</button>
+    </div>
   </div>
+
   <div class="hero-image">
     <img src="https://picsum.photos/600/500?random=1" alt="Hero Image">
+    <span class="badge">Future Ready Digital Solutions</span>
   </div>
   </section>
-<section class="hero reveal" id="home">
-  <span class="badge">Future Ready Digital Solutions</span>
+  <!-- INFO -->
+<section class="info" id="features">...</section>
 
-  <h1 class="hero-title">
-    <span>Crafting</span><br/>
-    <span>Smart Digital</span><br/>
-    <span>Products</span>
-  </h1>
+<!-- ROLES -->
+<section class="roles" id="roles">...</section>
 
-  <p>
-    We design and develop scalable digital experiences that focus on
-    performance, usability, and long-term growth.
-  </p>
+<!-- SERVICES -->
+<section class="services" id="services">...</section>
 
-  <div class="hero-buttons">
-    <button class="btn primary">View Projects</button>
-    <button class="btn outline">Know More</button>
-  </div>
-</section>
+<!-- PROCESS -->
+<section class="process" id="process">...</section>
 
-<!-- ===== INFO ===== -->
-<section class="info reveal" id="features">
-  <p class="info-text">
-    Technology is evolving rapidly. Real-world exposure and structured learning
-    help you stay ahead in the digital industry.
-  </p>
+<!-- ABOUT -->
+<section class="about" id="about">...</section>
 
-  <div class="info-cards">
-    <div class="info-card reveal">
-      <span class="number">1</span>
-      <h3>Industry Exposure</h3>
-      <p>
-        Understand how modern teams work and deliver production-ready digital
-        solutions.
-      </p>
-    </div>
+<!-- PROJECTS -->
+<section class="projects" id="projects">...</section>
 
-    <div class="info-card reveal">
-      <span class="number">2</span>
-      <h3>Skill Awareness</h3>
-      <p>
-        Identify strengths and gaps by working on practical, task-based
-        projects.
-      </p>
-    </div>
+<!-- CONTACT -->
+<section class="contact" id="contact">...</section>
 
-    <div class="info-card reveal">
-      <span class="number">3</span>
-      <h3>Career Confidence</h3>
-      <p>
-        Build confidence through hands-on execution instead of only theory.
-      </p>
-    </div>
-  </div>
-</section>
-
-<!-- ===== ROLES ===== -->
-<section class="roles reveal" id="roles">
-  <h2>Discover Career Paths</h2>
-
-  <div class="role-cards">
-    <div class="role-card reveal">
-      <img src="https://images.unsplash.com/photo-1581091870627-3c9c0a8f7b56" />
-      <h3>AI Research Associate</h3>
-      <p>
-        Work with structured datasets and intelligent models to support data-
-        driven decisions.
-      </p>
-      <button class="btn primary small">Explore</button>
-    </div>
-
-    <div class="role-card reveal">
-      <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" />
-      <h3>UI Experience Designer</h3>
-      <p>
-        Design clean, accessible, and user-focused interfaces for modern web
-        platforms.
-      </p>
-      <button class="btn primary small">Explore</button>
-    </div>
-  </div>
-</section>
-
-<!-- ===== FOOTER ===== -->
-<footer id="contact">
-  <p>© 2026 Static Internship Project | Execution over explanation</pl
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Static Internship Project | Execution over explanation</p>
 </footer>
-<!-- ===== NAVBAR ===== -->
-<header class="navbar">
-  <div class="logo">STATIC</div>
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#services">Services</a>
-    <a href="#process">Process</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-  </nav>
-</header>
-
-<!-- ===== HERO ===== -->
-<section class="hero" id="home">
-  <div class="hero-content">
-    <h1>Building Structured & Responsive Static Websites</h1>
-    <p>
-      This project demonstrates how a complete static website can be rebuilt
-      using clean HTML structure, modern CSS layouts, and interactive JavaScript
-      animations while maintaining responsiveness across all devices.
-    </p>
-    <button>Explore More</button>
-  </div>
-</section>
-
-<!-- ===== SERVICES ===== -->
-<section class="services" id="services">
-  <h2>What This Project Covers</h2>
-
-  <div class="service-grid">
-    <div class="service-card">
-      <h3>Layout Architecture</h3>
-      <p>
-        Focus on page structure, spacing, alignment, and hierarchy to ensure
-        professional layout building without copying designs.
-      </p>
-    </div>
-
-    <div class="service-card">
-      <h3>Responsive Behavior</h3>
-      <p>
-        The website adapts seamlessly across desktops, tablets, and mobile
-        devices using modern CSS techniques.
-      </p>
-    </div>
-
-    <div class="service-card">
-      <h3>Component Assembly</h3>
-      <p>
-        Multiple UI sections such as navbar, hero, content blocks, and footer
-        are combined into one complete webpage.
-      </p>
-    </div>
-  </div>
-</section>
-
-<!-- ===== PROCESS ===== -->
-<section class="process" id="process">
-  <h2>Execution Process</h2>
-
-  <div class="steps">
-    <div class="step">Structure HTML Layout</div>
-    <div class="step">Design with CSS</div>
-    <div class="step">Add Animations</div>
-    <div class="step">Test Responsiveness</div>
-    <div class="step">Deploy Daily</div>
-  </div>
-</section>
-
-<!-- ===== ABOUT ===== -->
-<section class="about" id="about">
-  <h2>About This Internship Task</h2>
-  <p>
-    The objective of this task is not to focus on heavy visuals but to ensure
-    strong execution of layout, structure, and responsiveness. Screenshots are
-    provided only as a reference for alignment and spacing.
-  </p>
-  <p>
-    Daily updates are deployed to the same live URL, and missing deployments
-    result in incomplete task evaluation.
-  </p>
-</section>
-
-<!-- ===== CONTACT ===== -->
-<section class="contact" id="contact">
-  <h2>Get In Touch</h2>
-
-  <form>
-    <input type="text" placeholder="Your Name" required>
-    <input type="email" placeholder="Your Email" required>
-    <textarea placeholder="Your Message"></textarea>
-    <button type="submit">Submit</button>
-  </form>
-</section>
-
-
-
-
-<!-- ===== ABOUT SECTION ===== -->
-<section class="about" id="about">
-  <div class="about-image">
-    <img src="https://picsum.photos/500/500?random=2" alt="">
-  </div>
-  <div class="about-content">
-    <h2>About This Project</h2>
-    <p>
-      This static website rebuild task is part of a guided frontend internship program.
-      The main goal is to convert layout screenshots into a fully responsive webpage.
-    </p>
-    <p>
-      Visual design is secondary — structure, execution, and consistency matter the most.
-    </p>
-  </div>
-</section>
-
-<!-- ===== SERVICES ===== -->
-<section class="services" id="services">
-  <h2 class="section-title">What We Focus On</h2>
-
-  <div class="service-grid">
-    <div class="service-card">
-      <h3>Clean Layout</h3>
-      <p>Well structured sections using modern CSS techniques.</p>
-    </div>
-
-    <div class="service-card">
-      <h3>Responsive Design</h3>
-      <p>Mobile, tablet, and desktop friendly layouts.</p>
-    </div>
-
-    <div class="service-card">
-      <h3>Animations</h3>
-      <p>Subtle animations for premium user experience.</p>
-    </div>
-
-    <div class="service-card">
-      <h3>Execution</h3>
-      <p>Focus on delivery, deployment, and consistency.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ===== PROJECTS ===== -->
-<section class="projects" id="projects">
-  <h2 class="section-title">Recent Work</h2>
-
-  <div class="project-grid">
-    <div class="project-card">
-      <img src="https://picsum.photos/400/300?random=3">
-      <h4>Landing Page</h4>
-    </div>
-
-    <div class="project-card">
-      <img src="https://picsum.photos/400/300?random=4">
-      <h4>Portfolio Design</h4>
-    </div>
-
-    <div class="project-card">
-      <img src="https://picsum.photos/400/300?random=5">
-      <h4>Business Website</h4>
-    </div>
-  </div>
-</section>
-
-<!-- ===== CONTACT ===== -->
-<section class="contact" id="contact">
-  <h2>Get In Touch</h2>
-  <p>Have a project or internship task? Let's build it together.</p>
-
-  <form>
-    <input type="text" placeholder="Your Name" required>
-    <input type="email" placeholder="Email Address" required>
-    <textarea placeholder="Your Message"></textarea>
-    <button type="submit">Send Message</button>
-  </form>
-</section>
-
 
 
 <script src="js/main.js"></script>
